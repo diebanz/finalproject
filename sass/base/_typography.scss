@@ -1,0 +1,73 @@
+.heading {
+    color: $color-primary-dark;
+    line-height: 1.5;
+    
+
+    &-1 {
+        font-size: 6.5rem;
+        text-shadow: .4rem .2rem rgba($color-white,.8);
+        font-family: $font-default;
+        margin-bottom: 2rem;
+        word-spacing: 1rem;
+        letter-spacing: .5rem;
+    }
+
+    &-2 {
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        word-spacing: 1rem;
+        letter-spacing: .3rem;
+        margin: 5rem 0;
+    }
+
+    &-3 {
+        font-size: 3.5rem;
+        color: $color-primary-dark;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        word-spacing: 1.2rem;
+        font-weight: 300;
+    }
+
+    &-4 {
+        font-size: 2.5rem;
+        color: $color-primary-dark;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        word-spacing: .5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    border: none;
+    color: $color-primary-dark;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    padding: 1.5rem 5rem;
+    border-radius: 100px;
+    background-color: $color-white; 
+    transition: all .2s;
+    position: relative;
+    
+
+    &:hover {
+        transform: translateY(3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .4);
+        color: $color-secondary-dark;
+        background-color: $color-primary-light; 
+    }
+
+    &__header {
+        animation: moveButton 1s ease-out;
+
+    }
+}
+

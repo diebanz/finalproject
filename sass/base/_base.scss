@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $color-white;
+    color: $color-grey-dark-1;
+    font-family: $font-secondary;
+}
+
+html {
+    //this defines what is 1 rem
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 195rem;
+    margin: 0 auto;
+    background-color: $color-grey-light-3;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 100vh repeat(6, min-content);
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start]repeat(11, [col-start] minmax(min-content, 20rem) [col-end] )[center-end] minmax(6rem, 1fr) [full-end];
+}

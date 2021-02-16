@@ -4,16 +4,293 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
 
     <title>Final Project - Natalia Banz</title>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            
+            <nav class="header__navigation">
+                <img src="/img/logo_big.png" alt="logo_big" class="header__logo" id="logo">
+
+                <ul class="header__navigation--box">
+                   <li class="header__navigation--items"><a href="#" class="header__navigation--link now">home</a></li>
+                   <li class="header__navigation--items"><a href="#" class="header__navigation--link">about</a></li>
+                   <li class="header__navigation--items"><a href="#" class="header__navigation--link">tours</a></li>
+                   <li class="header__navigation--items"><a href="#" class="header__navigation--link">gallery</a></li>
+                   <li class="header__navigation--items"><a href="#" class="header__navigation--link">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__heading heading heading-1"><span class="header__span">HikeUp!</span> your life with us</h1>
+                <h3 class="header__second heading heading-3">Enjoy your life fully </h3>
+                <a href="#" class="btn btn__header">Check the tours</a>
+            </div>
         </header>
+
+        <section class="about">
+            <div class="about__content">
+                <h2 class="heading heading-2">Get to know us better</h2>
+                <p class="about__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis sunt aliquid modi. Sit ab fugit aspernatur sunt voluptatum vitae, modi suscipit accusantium, dolorum ipsum velit unde, minima delectus atque sapiente nam. Distinctio in suscipit quos deserunt cum porro voluptatem minima tempora deleniti. Nesciunt, quae ullam. Consequatur velit deleniti voluptate.</p>
+                <p class="about__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facere nostrum laudantium dolorum maxime dolore doloribus molestiae fuga. Perspiciatis exercitationem distinctio aut obcaecati ex, vero vitae beatae esse cum tenetur!
+                </p>
+            </div>
+            <div class="about__pics">
+                <figure><img src="/img/about1.jpg" alt="Picture1" class="about__pics--img">
+                </figure>
+                <figure><img src="/img/about2.jpg" alt="Picture2" class="about__pics--img">
+                </figure>
+                <figure><img src="/img/about3.jpg" alt="Picture3 "class="about__pics--img">
+                </figure>
+                <figure><img src="/img/about4.jpg" alt="Picture4" class="about__pics--img">
+                </figure>   
+            </div>
+        </section>
+        <section class="section__feature">
+            <div class="section__feature--box">
+                <ion-icon name="eye-sharp" class="feature__content--icon"></ion-icon>
+                <h3 class="heading heading-4">See the world</h3>  
+                <p class="feature__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, enim aspernatur! Eius similique sapiente voluptatem quasi blanditiis qui dolorem eos!
+            </div>
+            <div class="section__feature--box">
+                <ion-icon name="leaf-sharp" class="feature__content--icon"></ion-icon>
+                <h3 class="heading heading-4">Make whole with nature</h3>  
+                <p class="features__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, enim aspernatur! Eius similique sapiente voluptatem quasi blanditiis qui dolorem eos!
+            </div>
+            <div class="section__feature--box">
+                <ion-icon name="paw-sharp" class="feature__content--icon"></ion-icon>
+                <h3 class="heading heading-4">Creat your way</h3>  
+                <p class="feature__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, enim aspernatur! Eius similique sapiente voluptatem quasi blanditiis qui dolorem eos!
+            </div>
+            <div class="section__feature--box">
+                <ion-icon name="nutrition-sharp" class="feature__content--icon"></ion-icon>
+                <h3 class="heading heading-4">Take care of your health</h3>  
+                <p class="feature__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, enim aspernatur! Eius similique sapiente voluptatem quasi blanditiis qui dolorem eos!
+            </div>
+        </section>
+        <section class="section__tours">
+            <div class="section__tours--title">
+                <h2 class="heading heading-2">
+                    Most popular tours
+                </h2>
+            </div>
+            <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture-1">
+                        &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                        <span class="card__heading-span card__heading-span--1">
+                            Water
+                        </span>
+                    </h4>
+                    <div class="card__details">
+                        <ul>
+                            <li>5 days tours</li>
+                            <li>Group of 15 people</li>
+                            <li>2 tour guides</li>
+                            <li>All inclusive</li>
+                            <li>difficulty: easy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <div class="card__price--box">
+                            <p class="card__price--only">Only</p>
+                            <p class="card__price--value">$200</p>
+                        </div>
+                        <a href="#" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+            </div>    
+                        
+            <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture-2">
+                        &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                        <span class="card__heading-span card__heading-span--2">
+                            Forest
+                        </span>
+                    </h4>
+                    <div class="card__details">
+                        <ul>
+                            <li>7 days tours</li>
+                            <li>Group of 20 people</li>
+                            <li>6 tour guides</li>
+                            <li>Sleep tents / Food inclusive</li>
+                            <li>difficulty: medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                    <div class="card__cta">
+                        <div class="card__price--box">
+                            <p class="card__price--only">Only</p>
+                            <p class="card__price--value">$400</p>
+                        </div>
+                        <a href="#" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="card">
+                <div class="card__side card__side--front">
+                    <div class="card__picture card__picture-3">
+                        &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                        <span class="card__heading-span card__heading-span--3">
+                            Mountain
+                        </span>
+                    </h4>
+                    <div class="card__details">
+                        <ul>
+                            <li>4 days tours</li>
+                            <li>Up to 6 people</li>
+                            <li>3 tour guides</li>
+                            <li>Sleep in tents / Food inclusive</li>
+                            <li>difficulty: hard</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                    <div class="card__cta">
+                        <div class="card__price--box">
+                            <p class="card__price--only">Only</p>
+                            <p class="card__price--value">$600</p>
+                        </div>
+                        <a href="#" class="btn btn--white">Book now!</a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section class="gallery">
+            <div class="gallery__title">
+                <h3 class="heading heading-3">Our gallery</h3>
+            </div>
+            <div class="gallery__pics">
+                <figure class="gallery__item gallery__item--1"><img src="/img/gallery-1.jpg" alt="Gallery img 1" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--2"><img src="/img/gallery-2.jpg" alt="Gallery img 2" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--3"><img src="/img/gallery-3.jpg" alt="Gallery img 3" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--4"><img src="/img/gallery-4.jpg" alt="Gallery img 4" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--5"><img src="/img/gallery-5.jpg" alt="Gallery img 5" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--6"><img src="/img/gallery-6.jpg" alt="Gallery img 6" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--7"><img src="/img/gallery-7.jpg" alt="Gallery img 7" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--8"><img src="/img/gallery-8.JPG" alt="Gallery img 8" class="gallery__img"></figure>
+                
+                <figure class="gallery__item gallery__item--9"><img src="/img/gallery-9.jpg" alt="Gallery img 9" class="gallery__img"></figure>
+            </div>
+        </section>   
+
+        <section class="contact">
+            <div class="contact__pic">
+                <form action="#" class="form">
+                    <div>
+                        <h3 class="heading heading-3 form__title">Start booking now!</h3>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" class="form__input" placeholder="Full Name" id="Name" required>
+                        <label for="Name" class="form__label">Full Name</label>
+                    </div>    
+                    <div class="form__group">
+                        <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                        <label for="email" class="form__label">Email Adress</label>
+                    </div>  
+                    <div class="form__group">
+                        <div class="form__radio--group">
+                            <input type="radio" class="form__radio--input" id="small" name="tour">
+                            <label for="small" class="form__radio--label">
+                                <span class="form__radio--button"></span>
+                                Small tour group</label>
+                        </div> 
+                        <div class="form__radio--group">
+                            <input type="radio" class="form__radio--input" id="large" name="tour">
+                            <label for="large" class="form__radio--label">
+                                <span class="form__radio--button"></span>
+                                Large tour group</label>
+                        </div> 
+                    </div> 
+                    <div class="form__group">
+                        <textarea name="message" id="message" class="form__area" placeholder="Write us your message"></textarea>
+                        <label for="message" class="form__label--mess">Write us your message</label>
+                    </div> 
+                    <div class="form__group">
+                        <button class="btn">Next step &rarr;</button>
+                    </div> 
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <ul class="footer__nav">
+                <a href="#" class="footer__nav--item1 footer__link">Start</a>
+            
+                <a href="#" class="footer__nav--item2 footer__link"">About</a>
+           
+                <a href="#" class="footer__nav--item3 footer__link"">Tours</a>
+
+                <a href="#" class="footer__nav--item4 footer__link"">
+                    Gallery
+                </a>
+          
+            </ul>
+            <div class="footer__copy">
+                Copyrights &copy; by Natalia Banz - Aps on the Mission!
+            </div>
+        </section>
     </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- MENU to be fixed -->
+    <!-- <script>
+          const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-10rem)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script> -->
 </body>
 </html>
