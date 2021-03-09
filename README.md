@@ -1,4 +1,4 @@
-# FINAL PROJECT - DCI
+# FINAL PROJECT - ![DCI](https://digitalcareerinstitute.org/)
 
 - After orientation course we had to design a website using only HTML and CSS.
 - **My project contains more then we have learnt on orientation course. It was my chance to repeat lots of content i learnt past year by myself.**
